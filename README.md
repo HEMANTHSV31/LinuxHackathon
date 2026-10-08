@@ -89,3 +89,30 @@ Evidence
     evidence/task3/modified-page.html
     evidence/task3/name-roll-verification.txt
     evidence/task3/modified-index.html
+
+
+
+Task 4 — Run a Different HTML Page on a Separate Port
+
+For this task, I created a different HTML page and configured Nginx to serve it on port 8080.
+
+The original hackathon page continues to run on port 80, while the new page is available on port 8080.
+
+I verified the new page locally using:
+
+curl http://localhost:8080
+
+I also accessed the page from the second computer using:
+
+http://10.10.154.24:8080
+
+The second computer successfully displayed the new HTML page.
+Result
+
+Task 4 completed successfully. A different HTML page was served through Nginx on a separate port while the original page continued to run on port 80.
+Evidence
+
+    evidence/task4/http-response.txt
+    evidence/task4/page-output.html
+    evidence/task4/nginx-port.txt
+    evidence/task4/nginx-task4-config.txt
