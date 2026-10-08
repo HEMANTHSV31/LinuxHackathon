@@ -116,3 +116,31 @@ Evidence
     evidence/task4/page-output.html
     evidence/task4/nginx-port.txt
     evidence/task4/nginx-task4-config.txt
+
+
+
+Task 5 — Convert the Hosted Page to HTTPS
+
+For this task, I configured Nginx to serve the hosted HTML page over HTTPS.
+
+Since this was done on the local network without a public domain, I generated a self-signed SSL certificate and configured Nginx to listen on port 443.
+
+The HTTPS page was verified from the server using:
+
+curl -k -I https://10.10.154.24
+
+The page was also accessed from the second computer using:
+
+https://10.10.154.24
+
+The hosted HTML page was successfully displayed over HTTPS.
+Result
+
+Task 5 completed successfully. The hosted page is available securely over HTTPS on port 443.
+Evidence
+
+    evidence/task5/https-response.txt
+    evidence/task5/https-page-output.html
+    evidence/task5/ssl-verification.txt
+    evidence/task5/https-port.txt
+    evidence/task5/nginx-https-config.txt

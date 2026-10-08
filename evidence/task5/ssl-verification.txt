@@ -1,0 +1,52 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C=IN, ST=Tamil Nadu, L=Chennai, O=LinuxHackathon, CN=10.10.154.24
+   i:C=IN, ST=Tamil Nadu, L=Chennai, O=LinuxHackathon, CN=10.10.154.24
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Oct  8 05:43:38 2026 GMT; NotAfter: Oct  8 05:43:38 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDqTCCApGgAwIBAgIUaIZ0QQ6gaYMHZCXqWeMsKd+GpYkwDQYJKoZIhvcNAQEL
+BQAwZDELMAkGA1UEBhMCSU4xEzARBgNVBAgMClRhbWlsIE5hZHUxEDAOBgNVBAcM
+B0NoZW5uYWkxFzAVBgNVBAoMDkxpbnV4SGFja2F0aG9uMRUwEwYDVQQDDAwxMC4x
+MC4xNTQuMjQwHhcNMjYxMDA4MDU0MzM4WhcNMjcxMDA4MDU0MzM4WjBkMQswCQYD
+VQQGEwJJTjETMBEGA1UECAwKVGFtaWwgTmFkdTEQMA4GA1UEBwwHQ2hlbm5haTEX
+MBUGA1UECgwOTGludXhIYWNrYXRob24xFTATBgNVBAMMDDEwLjEwLjE1NC4yNDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALS2+AZo26bRDi1+LSF/IGUs
+pxErJGzWUjRDWZiH8odf8/er3pNrnW2+WZJTFH7vhi/QW46q0jY9Qzy9ptNaV03d
+/Ieil8jC1C4jaTlGEpLhbzCR9xygxsHXojDQGQ2fOhVoLik7cea4G+81zT+E1eIv
+jX2As23HAvMstro75UbLgaNbVjhyC2U8lfrBMbBYwbxHdGYW1tfnKcICsKUDPpTA
+XT5GaFJxZAXJUSgCZzMX11w/bPazOi8opGr+2B5F4fSKBxqgJKVhZBpUV34Ley5/
+1IJy5uRMm/U7v1SN3oRpdt2pN5ErxaRkSwso6bRssPcTY4dHWi36mEBA4FLIWEUC
+AwEAAaNTMFEwHQYDVR0OBBYEFBJ75Kd4Kmv82LDgDliaIOH3qAH5MB8GA1UdIwQY
+MBaAFBJ75Kd4Kmv82LDgDliaIOH3qAH5MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADggEBAAE9QERzLqQuPQM96pvQNJzmRL6iDpq2jf2z6O4pBaoDcENq
+vdCoIX9nbI5U8u0NOuflkqQIVHcz3zcBGjAHdxffYZuMp7xKWdvGOjKlClLhp5zY
+Z5CfN8vhrTpAZzWtMzWix9SMdi/38WvQ5jojIOckMFsu5x+zB4s/CTm8i8pG64zO
+QEn5c+NLI1O9WtUHnuOylzc8lEj8bRA5uS2Y5wBnKf4LTHOJItb+dFs0da4f0DXU
+9B5rCfgpL0RmAQ4T7auRBkYj++ShLTOgEKRkoIErJK2d+EK/d1USqQ44U6Z59jtL
+kVICT5okS+JTK2Gw/DSGcXl3l1YhdudDzXgTXGM=
+-----END CERTIFICATE-----
+subject=C=IN, ST=Tamil Nadu, L=Chennai, O=LinuxHackathon, CN=10.10.154.24
+issuer=C=IN, ST=Tamil Nadu, L=Chennai, O=LinuxHackathon, CN=10.10.154.24
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 2585 bytes and written 1613 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
