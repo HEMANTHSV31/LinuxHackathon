@@ -67,3 +67,25 @@ Evidence
     evidence/task2/http-response.txt
     evidence/task2/page-output.html
     evidence/task2/nginx-port.txt
+
+
+
+Task 3 — Modify the HTML from another computer
+
+For this task, I connected to the Linux machine from the second computer using SSH.
+
+I modified the index.html file and added my name and roll number as required by the organizers.
+
+After saving the changes, I accessed the hosted page again from the second computer using:
+
+http://10.10.154.24
+
+The updated details were displayed on the hosted page.
+Result
+
+Task 3 completed successfully. The HTML page was modified from another computer and the changes were reflected on the Nginx-hosted page.
+Evidence
+
+    evidence/task3/modified-page.html
+    evidence/task3/name-roll-verification.txt
+    evidence/task3/modified-index.html
