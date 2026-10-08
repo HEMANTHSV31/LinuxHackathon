@@ -1,0 +1,35 @@
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-10-08 15:06:33 IST; 17min ago
+ Invocation: dcdf6d3fecb2459c898c46c5fc40bade
+       Docs: man:nginx(8)
+    Process: 20172 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 20173 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 21179 ExecReload=/usr/sbin/nginx -g daemon on; master_process on; -s reload (code=exited, status=0/SUCCESS)
+   Main PID: 20175 (nginx)
+      Tasks: 13 (limit: 18082)
+     Memory: 10.8M (peak: 26.7M)
+        CPU: 246ms
+     CGroup: /system.slice/nginx.service
+             ├─20175 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─21180 "nginx: worker process"
+             ├─21181 "nginx: worker process"
+             ├─21182 "nginx: worker process"
+             ├─21184 "nginx: worker process"
+             ├─21185 "nginx: worker process"
+             ├─21186 "nginx: worker process"
+             ├─21187 "nginx: worker process"
+             ├─21188 "nginx: worker process"
+             ├─21189 "nginx: worker process"
+             ├─21190 "nginx: worker process"
+             ├─21191 "nginx: worker process"
+             └─21192 "nginx: worker process"
+
+Oct 08 15:06:33 hemanth systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Oct 08 15:06:33 hemanth systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Oct 08 15:12:04 hemanth systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Oct 08 15:12:04 hemanth nginx[21053]: 2026/10/08 15:12:04 [notice] 21053#21053: signal process started
+Oct 08 15:12:04 hemanth systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Oct 08 15:14:13 hemanth systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Oct 08 15:14:13 hemanth nginx[21179]: 2026/10/08 15:14:13 [notice] 21179#21179: signal process started
+Oct 08 15:14:13 hemanth systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
